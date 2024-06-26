@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { StatusBar, StyleSheet, Text, TouchableOpacity, View } from "react-native"
 
-const bgChanger = () => {
+const BackGround = () => {
     const [randomColor, setRandomColor] = useState('#ffffff')
 
     const generateColor = () => {
@@ -32,6 +32,7 @@ const bgChanger = () => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        height: 760,
         alignItems: "center",
         justifyContent: "center"
     },
@@ -48,4 +49,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default bgChanger;
+export default BackGround;
