@@ -3,8 +3,7 @@ import React from 'react'
 
 const Separator = () => {
   return (
-    <View style={styles.seprator}> 
-    </View>
+    <View style={styles.seprator}></View>
   )
 }
 const styles = StyleSheet.create({

@@ -61,7 +61,6 @@ const styles = StyleSheet.create({
   },
   name: {
     marginBottom: 4,
-
     fontSize: 20,
     fontWeight: '500',
   },
@@ -71,15 +70,12 @@ const styles = StyleSheet.create({
   priceContainer: {
     paddingVertical: 12,
     paddingHorizontal: 12,
-
     marginBottom: 12,
-
     borderRadius: 6,
     backgroundColor: '#deffeb',
   },
   rating: {
     marginRight: 4,
-
     borderRadius: 4,
     paddingHorizontal: 8,
     justifyContent: 'center',

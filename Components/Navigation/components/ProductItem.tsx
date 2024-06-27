@@ -25,7 +25,6 @@ const ProductItem = ({product}: ProductProps) => {
                 ({product.ratingCount.toLocaleString()})
             </Text>
             </View>
-            
             <View style={[styles.rowContainer, styles.priceContainer]}>
                 <Text style={styles.originalPrice}>
                     ₹{product.originalPrice.toLocaleString()}
@@ -76,7 +75,6 @@ const styles = StyleSheet.create({
       paddingHorizontal: 8,
       justifyContent: 'center',
       backgroundColor: '#008c00',
-  
       marginRight: 4,
     },
     ratingText: {

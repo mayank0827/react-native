@@ -79,7 +79,6 @@ function App() {
           title: "Product Details"
         }}
         />
-        
       </Stack.Navigator>
     </NavigationContainer>
       {/* </ScrollView> */}
